@@ -4,7 +4,7 @@
 
 1. [x] Write a programme which finds the factorial of a number entered by the user. (check for all conditions).
 2. [x] Develop a programme to convert currency X to currency Y and vice versa.
-3. [ ] Write a programme that prints out a triangle from largest to smallest; user inputs the largest number. Eg:
+3. [x] Write a programme that prints out a triangle from largest to smallest; user inputs the largest number. Eg:
 
 ```
 *****
@@ -14,7 +14,7 @@
 *
 ```
 
-4. [ ] Write a programme that prints out a triangle from smallest to largest; user inputs bottom number. Eg:
+4. [x] Write a programme that prints out a triangle from smallest to largest; user inputs bottom number. Eg:
 
 ```
 *
