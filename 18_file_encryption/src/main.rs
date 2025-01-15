@@ -23,16 +23,16 @@ fn main() {
             let encrypted = rot13(&contents);
 
             match File::create(filename) {
-                Err(e) => panic!("Error creating file {}", filename),
+                Err(e) => panic!("Error creating file {}: {}", filename, e),
                 Ok(mut file) => {
 
                     match file.write_all(encrypted.as_bytes()) {
-                        Err(e) => panic!("Error writing to file {}", filename),
+                        Err(e) => panic!("Error writing to file {}: {}", filename, e),
                         Ok(_) => println!("File has been encrypted"),
                     }
                 },
             }
         },
-        Err(e) => panic!("Error opening file {}", filename),
+        Err(e) => panic!("Error opening file {}: {}", filename, e),
     }
 }
